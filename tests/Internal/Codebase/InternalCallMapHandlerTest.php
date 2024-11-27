@@ -228,7 +228,7 @@ class InternalCallMapHandlerTest extends TestCase
         'reflectionobject::getstaticproperties' => ['8.1', '8.2', '8.3', '8.4'],
         'reflectionobject::newinstanceargs' => ['8.1', '8.2', '8.3', '8.4'],
         'regexiterator::getinneriterator' => ['8.1', '8.2', '8.3', '8.4'],
-        'register_shutdown_function' => ['8.0', '8.1', '8.2, '8.3', '8.4'],
+        'register_shutdown_function' => ['8.0', '8.1''],
         'splfileobject::fscanf' => ['8.1', '8.2', '8.3', '8.4'],
         'spltempfileobject::fscanf' => ['8.1', '8.2', '8.3', '8.4'],
         'xsltprocessor::transformtoxml' => ['8.1', '8.2', '8.3', '8.4'],
