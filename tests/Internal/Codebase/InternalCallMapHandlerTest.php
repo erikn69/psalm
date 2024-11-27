@@ -186,7 +186,7 @@ class InternalCallMapHandlerTest extends TestCase
         'datetime::add' => ['8.1', '8.2', '8.3', '8.4'], // DateTime does not contain static
         'datetime::modify' => ['8.1', '8.2', '8.3', '8.4'], // DateTime does not contain static
         'datetime::createfromformat' => ['8.1', '8.2', '8.3', '8.4'], // DateTime does not contain static
-        'datetime::createfromimmutable' => ['8.1'],
+        'datetime::createfromimmutable' => ['8.1', '8.2', '8.3', '8.4'],
         'datetime::createfrominterface',
         'datetime::setdate' => ['8.1', '8.2', '8.3', '8.4'], // DateTime does not contain static
         'datetime::setisodate' => ['8.1', '8.2', '8.3', '8.4'], // DateTime does not contain static
@@ -219,16 +219,16 @@ class InternalCallMapHandlerTest extends TestCase
         'recursivecallbackfilteriterator::getinneriterator' => ['8.1', '8.2', '8.3', '8.4'],
         'recursivefilteriterator::getinneriterator' => ['8.1', '8.2', '8.3', '8.4'],
         'recursiveregexiterator::getinneriterator' => ['8.1', '8.2', '8.3', '8.4'],
-        'reflectionclass::getstaticproperties' => ['8.1', '8.2'],
+        'reflectionclass::getstaticproperties' => ['8.1', '8.2', '8.3', '8.4'],
         'reflectionclass::newinstanceargs' => ['8.1', '8.2', '8.3', '8.4'],
         'reflectionfunction::getclosurescopeclass' => ['8.1', '8.2', '8.3', '8.4'],
         'reflectionfunction::getclosurethis' => ['8.1', '8.2', '8.3', '8.4'],
         'reflectionmethod::getclosurescopeclass' => ['8.1', '8.2', '8.3', '8.4'],
         'reflectionmethod::getclosurethis' => ['8.1', '8.2', '8.3', '8.4'],
-        'reflectionobject::getstaticproperties' => ['8.1', '8.2'],
+        'reflectionobject::getstaticproperties' => ['8.1', '8.2', '8.3', '8.4'],
         'reflectionobject::newinstanceargs' => ['8.1', '8.2', '8.3', '8.4'],
         'regexiterator::getinneriterator' => ['8.1', '8.2', '8.3', '8.4'],
-        'register_shutdown_function' => ['8.0', '8.1'],
+        'register_shutdown_function' => ['8.0', '8.1', '8.2, '8.3', '8.4'],
         'splfileobject::fscanf' => ['8.1', '8.2', '8.3', '8.4'],
         'spltempfileobject::fscanf' => ['8.1', '8.2', '8.3', '8.4'],
         'xsltprocessor::transformtoxml' => ['8.1', '8.2', '8.3', '8.4'],
